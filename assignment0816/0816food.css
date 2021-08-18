@@ -502,6 +502,33 @@ p{
   height: 300px;
   padding: 30px;
 }
+.pagetop a{
+  text-decoration:none;
+  color: rgb(255, 253, 253);
+  display: block;
+}
+.pagetop :hover{
+  transition: .3s;
+  width: 160px;
+}
+.pagetop a:hover:after{
+  content: "TOP PAGE";
+  color: white;
+  width: 160px;
+  padding: 9px 15px 6px;
+  background-color: black;
+}
+.pagetop {
+font-family:'Avenir',sans-serif;
+font-size:20px;
+text-align:center;
+background-color:black;
+width: 50px;
+padding:6px;
+margin-top: 60px;
+margin-bottom: 20px;
+margin-left: 30px;
+}
 footer p{
   text-align: center;
   color: #fff;
