@@ -55,4 +55,3 @@
   }else{
     console.log('Both of you failed. Your score:'+Object.values(obj1)+'/'+Object.values(obj2));
   }
-
