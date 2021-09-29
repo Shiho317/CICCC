@@ -11,6 +11,7 @@ This function should mimic the functionality of Math.pow()
 // power(2,4) // 16
 
 function power(base, exponent){
+  if(exponent <= 0) return 1
     return Math.pow(base, exponent)
 }
 console.log(power(2, 0));
@@ -26,13 +27,15 @@ returns the product of them all.
 // productOfArray([1,2,3,10]) // 60
 
 function productOfArray(arry){
-  let product = 1;
-  for(let i = 0; i < arry.length; i++){
-    product *= arry[i];
-  }
-  return product;
-};
+  if(arry.length === 0)return 1;
 
+  let product = arry[0];
+  arry.shift();
+  
+  return product * productOfArray(arry);
+  
+
+}
 console.log(productOfArray([1,2,3]));
 console.log(productOfArray([1,2,3,10]));
 
@@ -45,17 +48,15 @@ a new string in reverse.
 // reverse('rithmschool') // 'loohcsmhtir'
 
 function reverse(array){
-  let str = '';
   const words = array.split('');
+  if(words.length === 0) return '';
   console.log(words);
 
-  const reversed = words.reverse();
-  console.log(reversed);
-  
-  for(let i = 0; i < reversed.length; i++){
-    str += reversed[i];
-  }
-  return str;
+  const char = words[words.length - 1];
+  console.log(char);
+  words.pop();
+
+  return char + reverse(words.join(''));
     // add whatever parameters you deem necessary - good luck!
 }
 
@@ -75,19 +76,8 @@ Otherwise it returns false.
 // isPalindrome('amanaplanacanalpandemonium') // false
 
 function isPalindrome(string){
-  let stReversed = '';
-  
-  const strings = string.split('');
-  console.log(strings);
 
-  const reversedStrings = strings.reverse();
-  console.log(reversedStrings);
-  
-  for(let i = 0; i < reversedStrings.length; i++){
-    stReversed += reversedStrings[i];
-  }
-  if(string === stReversed) return true;
-  if(string !== stReversed) return false;
+  return reverse(string) === string;
     
     // add whatever parameters you deem necessary - good luck!
 }
