@@ -1,0 +1,207 @@
+html { scroll-behavior: smooth;}
+body {
+  display: block;
+  margin:0px;
+}
+.container1 {
+  display: flex; 
+  justify-content: space-evenly;
+  }
+.storeexp{
+position: relative;
+top: 50px;
+right: 20px;
+  }
+.storeexp p{
+  font-family:'Avenir',sans-serif;
+  color:black;
+  font-size: 19px;
+  text-align:center;
+  position: relative;
+  margin-right: 40px;
+  letter-spacing: 1px;
+}
+h1 {
+  font-family:"BradleyHand", "cursive";
+  color: black;
+  font-size: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 55px;
+  text-align:left;
+  position: relative;
+  margin: 0;
+  letter-spacing: 2px;
+  }
+h2{
+  font-family:"BradleyHand", "cursive";
+  color: black;
+  font-size: 30px;
+  padding-bottom: 45px;
+  padding-top: 60px;
+  padding-left: 55px;
+  text-align:left;
+  position: relative;
+  margin: 0;
+  letter-spacing: 2px;
+}
+h3{
+  font-family:'Avenir',sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 55px;
+  text-align:left;
+  position: relative;
+  margin: 0;
+  letter-spacing: 2px;
+}
+h5{
+  font-family:"BradleyHand", "cursive";
+  color:rgb(94, 92, 92);
+  font-size: 14px;
+  text-align:center;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 80px;
+  letter-spacing: 1px;
+}
+
+hr{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hr1{
+  margin-top: 70px;
+color: rgb(112, 111, 111);
+}
+
+.title1{
+margin-left: 15px;
+}
+
+a{
+  text-decoration:none;
+}
+a :hover {
+  color:rgb(110, 112, 112);
+  transition:.3s;	
+  text-decoration: underline 1.5px;
+}
+span{
+color: rgb(34, 36, 129);
+font-weight: bolder;
+}
+
+.pagetop a{
+  text-decoration:none;
+  color: rgb(255, 253, 253);
+  display: block;
+}
+.pagetop :hover{
+  transition: .3s;
+  width: 160px;
+  }
+
+.pagetop a:hover:after{
+    content: "TOP PAGE";
+    color: white;
+    width: 160px;
+    padding: 9px 15px 6px  ;
+    background-color: black;
+    }
+
+.pagetop {
+font-family:'Avenir',sans-serif;
+font-size:20px;
+text-align:center;
+background-color:black;
+width: 50px;
+padding:6px;
+margin-top: 60px;
+margin-bottom: 20px;
+margin-left: 30px;
+}
+
+*{
+  box-sizing: border-box;
+  }
+   body{
+  background-color: #fff;
+   color: black
+  }
+  .page-header{
+  background-color:rgba(255, 255, 255, 0.705); position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  }
+  .headerlogo img{
+   width: 80px;
+   position: relative;
+   bottom: 30px;
+  }
+  .main-nav{
+  display: flex;
+  font-size: 40px;
+  text-transform: uppercase; list-style: none;
+  font-family: 'Bebas Neue', 'cursive'; position: relative;
+  top: -30px;
+  right: 5%;
+   }
+  .main-nav li{
+  margin-left: 36px; }
+  .main-nav a{ padding: 10px;
+  }
+  .main-nav a:hover{
+   color: #f8ee5b;
+   border: 2px solid rgb(44, 78, 141);
+  }
+  .button5:hover{
+  background-color: rgb(44, 78, 141);
+  }
+  li a{
+  text-decoration: none; font-size: 20px;
+  color: rgb(44, 78, 141);
+  } 
+  .page{
+   display: flex;
+  gap: 20px; }
+  .page a{
+  color: #fff; font-size: 15px;
+  }
+  .page a:hover{
+   color: #f8ee5b;
+   border: 2px solid rgb(44, 78, 141);
+  }
+  .page li{
+  list-style: none; text-decoration: none;
+  } .icon{
+   gap: 20px;
+   display: flex;
+   position: relative;
+   
+  top: 10px; }
+  .icon img{ width: 40px;
+  } 
+  #end{
+  display: flex; justify-content: space-around; position: relative;
+  top: 40px;
+  }
+  .page a:hover{
+   color: #f8ee5b;
+   border: 2px solid rgb(44, 78, 141);
+  }
+  footer{
+  background-color:rgb(44, 78, 141); height: 150px;
+  }
+  .icon img:hover{
+    filter: brightness(70%);
+    }
+  footer p{
+   text-align: center;
+   color: white;
+  font-size: 15px;
+    }

@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  color: #fff;
+}
+.main-nav{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-family: 'Georama', sans-serif;
+  justify-content: space-around;
+  font-size: 20px;
+  color: #0a0a0a;
+  border:1px solid #bdcebe;
+  padding: 5px;
+  background-color: #fff;
+}
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+a:hover{
+  color: #d7cebb;
+}
+.captainamerica{
+  background-color: #a2b9bc;
+  width: 250px;
+  height: 600px;
+  border: 1px solid #d6cbd3;
+  margin-top: 100px;
+}
+.captainamerica img{
+  border-radius: 50%;
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+.captainamerica p{
+  overflow: scroll;
+  border: 1px solid #d6cbd3;
+  overflow: scroll;
+  height: 200px;
+}
+.ironman{
+  background-color: #b2ad7f;
+  width: 250px;
+  height: 600px;
+  border: 1px solid #d6cbd3;
+  margin-top: 100px;
+}
+.ironman img{
+  border-radius: 50%;
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+.ironman p{
+  overflow: scroll;
+  border: 1px solid #d6cbd3;
+  overflow: scroll;
+  height: 200px;
+}
+.blackwidow{
+  background-color: #878f99;
+  width: 250px;
+  height: 600px;
+  border: 1px solid #d6cbd3;
+  margin-top: 100px;
+}
+.blackwidow img{
+  border-radius: 50%;
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+.blackwidow p{
+  overflow: scroll;
+  border: 1px solid #d6cbd3;
+  overflow: scroll;
+  height: 200px;
+}
+.thor{
+  background-color: #6b5b95;
+  width: 250px;
+  height: 600px;
+  border: 1px solid #d6cbd3;
+  margin-top: 100px;
+}
+.thor img{
+  border-radius: 50%;
+  position: relative;
+  left: 20px;
+  top: 5px;
+}
+.thor p{
+  border: 1px solid #d6cbd3;
+  overflow: scroll;
+  height: 200px;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #d6cbd3;
+  height: 800px;
+}
+h1{
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+  color: #0a0a0a;
+  text-align: center;
+}
+h2{
+  font-family: 'Georama', sans-serif;
+  text-align: center;
+}
+footer{
+  text-align: center;
+  color: #0a0a0a;
+}
